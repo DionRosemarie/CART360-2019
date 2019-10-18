@@ -366,4 +366,14 @@ void loopMode()
   }
 }
 
-/**************************************************************************/
+/****************** Behavior of the resistor ladder *********************************
+  The Arduino is going to give to our breadboard 5V, so in this case, we are going to have
+  5V going throught our circuit. By pressing the mode button, there is nothing that going to
+  affec the noise going out of the buzzer. When we press on one of the note buttons, the current
+  is going to go throught the button and the resistors that follows after. Because of that, the
+  level of voltage is going to be lower if we press the first button and vise versa. Resistors 
+  produce noise and this noise is produce by the movements of electrons. In this state of mind,
+  if the current goes throught many resistors before getting to the buzzer, the sound at the end 
+  of the line is going to be as strong as the one that goes throught only one. Now that we have
+  different resistors in our circuit, the sound is also going to be affected.
+**************************************************************************/
