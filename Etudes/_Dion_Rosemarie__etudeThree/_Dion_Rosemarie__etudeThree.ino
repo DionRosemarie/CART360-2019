@@ -106,7 +106,7 @@ void chooseMode() {
 // if the button was pressed
     if (buttonState == HIGH) {
 // changing the mode and make it goes back to the first one
-    mode = (mode + 1) % 5;
+    mode = (mode + 1) % 3;
     }
     buttonStatePrev = buttonState;
 
